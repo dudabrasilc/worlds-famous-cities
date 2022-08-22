@@ -59,6 +59,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // append created elements to the DOM
       cardDiv.appendChild(h2)
       cardDiv.appendChild(img)
+    cardDiv.appendChild(p)
+      cardDiv.appendChild(button)
     
   }
   

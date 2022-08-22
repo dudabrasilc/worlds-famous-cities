@@ -50,6 +50,12 @@ document.addEventListener("DOMContentLoaded", () => {
       unlike.setAttribute("class", "unlike-btn");
     unlike.setAttribute("id", city.id);
       unlike.textContent = "👎";
+    unlike.addEventListener("click", () => {
+        let count = city.likes;
+        count = city.likes-- - 1;
+        p.textContent = `${count} likes`;
+        updateLikes(city, count)
+      })
     
   }
   

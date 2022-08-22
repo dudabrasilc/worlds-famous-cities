@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const h2 = document.createElement("h2");
       h2.setAttribute("id", "city-name")
       h2.textContent = city.name;
+    // create img tag
+      const img = document.createElement("img");
+      img.setAttribute("src", city.image);
+      img.setAttribute("class", "city-img")
   }
   
 })

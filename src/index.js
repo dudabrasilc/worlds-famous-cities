@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
         p.textContent = `${count} likes`;
         updateLikes(city, count);
       })
+    const unlike = document.createElement("button");
+      unlike.setAttribute("class", "unlike-btn");
     
   }
   

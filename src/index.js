@@ -6,4 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // console.log(cities)
     renderCities(cities)
   })
+  
+  // render cities array from json server 
+  function renderCities(cities) {
+    cities.forEach(city => {
+      renderCity(city)
+    })
+  }
+  
 })
+
+

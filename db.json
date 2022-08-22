@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "New York",
+      "image": "images/new-york.png",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Dubai",
+      "image": "images/dubai.png",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "London",
+      "image": "images/london.png",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Rio de Janeiro",
+      "image": "images/rio-de-janeiro.png",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "Tokyo",
+      "image": "images/tokyo.png",
+      "likes": 0
+    },
+    {
+      "id": 6,
+      "name": "San Francisco",
+      "image": "images/san-francisco.png",
+      "likes": 0
+    }
+  ]
+}

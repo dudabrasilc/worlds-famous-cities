@@ -68,7 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
       citiesCardsDiv.appendChild(cardDiv)
       }
   
-  function updateLikes(city, count) {
+  
+      function updateLikes(city, count) {
+        // console.log(e)
       fetch(`http://localhost:3000/cities/${city.id}`, {
       method: "PATCH",
       headers: {
@@ -81,3 +83,4 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(response => response.json())
       .then(data => console.log(data))  
     }
+})

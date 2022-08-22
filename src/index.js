@@ -56,6 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
         p.textContent = `${count} likes`;
         updateLikes(city, count)
       })
+    // append created elements to the DOM
+      cardDiv.appendChild(h2)
+      cardDiv.appendChild(img)
     
   }
   

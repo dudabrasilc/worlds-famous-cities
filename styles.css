@@ -29,3 +29,44 @@ body {
   margin-top: 7px;
 }
 
+#cities-cards {
+  margin: 2rem;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  background-color: rgb(180, 214, 241);
+  padding: 1rem;
+  width: 18rem;
+  height: 25rem;
+  display: inline-block;
+  margin: 1rem 2rem;
+  box-shadow: 7px 7px #d69300;
+}
+
+.city-img {
+  justify-self: center;
+  height: 12rem;
+  width: 18rem;
+}
+
+button {
+  position: relative;
+  background-color: rgb(0, 29, 60);
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: 3rem;
+  color: rgb(218, 230, 239);
+  font-size: 20px;
+  justify-self: center;
+}
+
+button:hover {
+  background-color: rgba(219, 224, 223, 0.279);
+  border: #d69300 solid 1px;
+  color: rgb(0, 29, 60);
+  cursor: pointer;
+}

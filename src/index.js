@@ -38,6 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
       button.setAttribute("class", "like-btn");
     button.setAttribute("id", city.id);
       button.textContent = "👍";
+    // button event listener
+      button.addEventListener('click', () => {
+        let count = 0;
+        count = city.likes++ +1
+        // console.log(count);
+        p.textContent = `${count} likes`;
+        updateLikes(city, count);
+      })
+    
   }
   
 })

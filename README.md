@@ -1,4 +1,4 @@
-# World Famous Cities
+# World's Famous Cities
 
 World Famous Cities is a single page web application project that allows a user to interact with the web page updating the like count of 6 world famous cities, being them: New York, Dubai, London, Rio de Janeiro, Tokyo, San Francisco.
   

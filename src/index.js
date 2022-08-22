@@ -14,6 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }
   
+  function renderCity(city) {
+      // get node of city cards div
+      const citiesCardsDiv = document.getElementById("cities-cards");
+      // create a div node of class="card"
+      const cardDiv = document.createElement("div")
+      }
+  
 })
 
 

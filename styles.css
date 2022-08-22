@@ -19,3 +19,13 @@ body {
   margin-bottom: 1px;
 }
 
+#main-header {
+  width: auto;
+  font-family: cursive;
+  text-shadow: 3px 3px rgb(180, 214, 241);
+  font-weight: 800;
+  color: rgb(0, 29, 60);
+  text-align: center;
+  margin-top: 7px;
+}
+

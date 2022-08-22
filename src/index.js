@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const img = document.createElement("img");
       img.setAttribute("src", city.image);
       img.setAttribute("class", "city-img")
+    // create p tag that is going to have the like count
+      const p = document.createElement("p");
   }
   
 })

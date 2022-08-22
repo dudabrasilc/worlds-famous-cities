@@ -19,7 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const citiesCardsDiv = document.getElementById("cities-cards");
       // create a div node of class="card"
       const cardDiv = document.createElement("div")
-      }
+    // add class of 'card' to the card div created
+      cardDiv.className = 'card';
+      // create children nodes for div with class="card"
+      const h2 = document.createElement("h2");
+      h2.setAttribute("id", "city-name")
+      h2.textContent = city.name;
+  }
   
 })
 

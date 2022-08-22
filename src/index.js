@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     const unlike = document.createElement("button");
       unlike.setAttribute("class", "unlike-btn");
+    unlike.setAttribute("id", city.id);
+      unlike.textContent = "👎";
     
   }
   

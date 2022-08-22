@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
       img.setAttribute("class", "city-img")
     // create p tag that is going to have the like count
       const p = document.createElement("p");
+      p.className = "likes-count";
+      p.textContent = `${city.likes} likes`;
   }
   
 })

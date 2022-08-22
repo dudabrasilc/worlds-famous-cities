@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const p = document.createElement("p");
       p.className = "likes-count";
       p.textContent = `${city.likes} likes`;
+    // create like button
+      const button = document.createElement("button");
+      button.setAttribute("class", "like-btn");
   }
   
 })

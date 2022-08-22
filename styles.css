@@ -70,3 +70,25 @@ button:hover {
   color: rgb(0, 29, 60);
   cursor: pointer;
 }
+
+#city-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 29, 60);
+  font-size: 25px;
+}
+
+.likes-count {
+  color: rgb(0, 29, 60);
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.like-btn {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.unlike-btn {
+  color: rgb(180, 214, 241);
+  font-size: 30px;
+}

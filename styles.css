@@ -1,1 +1,21 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: rgb(0, 29, 60);
+}
+
+#cities-header {
+  display: flex;
+  justify-content: center;
+  background-image: url("images/background.jpg");
+  height: 7rem;
+  padding: 1rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: cover;
+  margin: auto;
+  font-size: 25pt;
+  margin-bottom: 1px;
+}
 

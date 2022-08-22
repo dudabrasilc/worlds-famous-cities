@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // create like button
       const button = document.createElement("button");
       button.setAttribute("class", "like-btn");
+    button.setAttribute("id", city.id);
+      button.textContent = "👍";
   }
   
 })

@@ -67,3 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
       cardDiv.appendChild(unlike)
       citiesCardsDiv.appendChild(cardDiv)
       }
+  
+  function updateLikes(city, count) {
+      fetch(`http://localhost:3000/cities/${city.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        "likes": count
+      })
+      })
+      .then(response => response.json())
+      .then(data => console.log(data))  
+    }

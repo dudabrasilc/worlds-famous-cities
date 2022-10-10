@@ -10,5 +10,6 @@ With this web application, a user is able to interact with cards of cities rende
 
 
 
-# Status
-This project is still in process and should be ready by the end of August 2022.
+# Support
+For any questions related to the project's functionality, code, or usage, please reach out to:
+brasildu@gmail.com

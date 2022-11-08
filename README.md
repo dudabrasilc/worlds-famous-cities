@@ -4,10 +4,10 @@ World Famous Cities is a single page web application project that allows a user 
   
 # Node Module
 
-For being able to run the application, you need to have a json server installed. To install it with npm package manager, type the following command in your terminal:
+For being able to run the application, you need to have a json server installed. To install it with npm package manager, type the following command in your terminal:  
 $ npm install -g json-server
 
-To run the db.json file:
+To run the db.json file:  
 $ json-server --watch db.json
 
 # Usage
